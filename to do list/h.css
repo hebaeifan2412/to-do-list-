@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+#myText{
+    
+   color: white;
+   font-family: sans-serif;
+   font-size: 20px;
+    background: linear-gradient(  250deg, #00c400 70% , #FFFF00);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: myText 5s infinite;
+   
+}
+@keyframes myText {
+    0%, 100% { font-size: 20px; }
+    50% { font-size: 40px; }}
+#name{
+    
+    display: block;
+    
+}
+
+
+.Text {
+    display: none;
+}
+.header {
+    width: 100%;
+    color: #fffbf3;
+    background-color: green;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+
+}
+#output{
+    width: 100%;
+      
+    text-align: center;
+    border-bottom: 2px solid green; 
+    padding-bottom: 1px; 
+    padding: 15px;
+    margin-bottom: 20px;
+
+    
+}
+
+  h2{
+    margin-left: 25px;
+  }
+
+.const {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    
+
+}
+input[type='text'] {
+    display: inline-block;
+    width: 50%;
+    height: 60%;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: green;
+    margin-left: 25px;
+}
+input[type='submit'] {
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 10%;
+    background-color: green;
+    color: #ffff;
+    font-size: 15px;
+      transition: transform 0.1s ease-in-out;
+            border-radius: 30px;}
+
+            .task {
+                display: inline-block;
+                border-color: green;
+                height: 100px;
+                width: 200px;
+                background-color: #a7e09e;
+                border-radius: 5px;
+                padding-top: 2px;
+                margin: 10px;
+               
+               border: 1px solid green;
+               
+            }
+            #todoList{
+                margin-left: 5px;
+                display: block;
+            }
+            
+            #check {
+                
+                color: green;
+                width: 195px;
+               border: 1px solid green;
+               
+               border-radius: 3px;
+                margin-top: 55px;
+                
+            }
+            .toggle-icon {
+                cursor: pointer;
+                color: #000; 
+                padding-left: 92%;
+               
+               
+            }
+              
+              .dark-mode {
+            background-color: #333;
+                color: #fff;}
+               
+               
+            
+            
+           
